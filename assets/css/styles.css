@@ -11,14 +11,14 @@
   display: flex;
   justify-content: left;
   align-items: center;
-  width: 20%;
+  width: 10%;
   height: 35px;
 }
 
 #right-container {
   display: flex;
   justify-content: right;
-  width: 20%;
+  width: 10%;
   height: 35px;
 }
 
@@ -30,13 +30,12 @@
 #center-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 35px;
-  width: 60%;
+  width: 80%;
 }
 
 #search {
-  width: 900px;
+  width: 500px;
   height: 30px;
   font-size: medium;
   border-color: gray;
@@ -55,4 +54,37 @@
 #micro {
   padding: 0;
   margin: 0;
+}
+
+#embedded-video {
+  background-color: aqua;
+}
+
+#video-info {
+  background-color: blueviolet;
+}
+
+#like-icon-bar {
+  background-color: brown;
+}
+
+#suscription {
+  background-color: chartreuse;
+}
+
+#comments {
+  background-color: crimson;
+}
+
+#container-2 {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+main {
+  float: left;
+  width: 70%;
+}
+aside {
+  float: right;
+  width: 30%;
 }
