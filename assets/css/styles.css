@@ -56,22 +56,21 @@
 
 #embedded-video {
   height: 100%;
-  background-color: blueviolet;
-}
-
-#video-info {
-  background-color: blueviolet;
+  margin-bottom: 10px;
 }
 
 #like-icon-bar {
-  background-color: brown;
   display: flex;
   justify-content: left;
   align-items: center;
+  margin-top: 10px;
 }
 
 #suscription {
-  background-color: chartreuse;
+  margin-top: 10px;
+  border-color: grey;
+  border-width: 1px;
+  border-style: solid;
 }
 
 #comments {
@@ -105,4 +104,49 @@ iframe {
   --video-container-width: calc(65vw - var(--video-container-x-padding-sum));
   width: 100%;
   height: calc(var(--video-container-width) / var(--video-ratio));
+}
+
+h1.ytd-watch-metadata {
+  word-break: break-word;
+  font-family: "YouTube Sans", "Roboto", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 600;
+  max-height: 5.6rem;
+  -webkit-line-clamp: 2;
+  display: box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+  margin: 0;
+}
+#description.ytd-watch-metadata {
+  --ytd-text-inline-expander-button-color: var(--yt-spec-text-primary);
+  flex: 1;
+  flex-basis: 1e-9px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+}
+
+#like.ytd-watch-metadata {
+  --ytd-text-inline-expander-button-color: var(--yt-spec-text-primary);
+  white-space: nowrap;
+  display: block;
+  flex-basis: 1e-9px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+section {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
 }
