@@ -1,8 +1,9 @@
 #container {
   display: flex;
   justify-content: space-between;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 20px;
   max-height: 40px;
 }
 
@@ -37,7 +38,7 @@
   height: 30px;
   font-size: medium;
   border-color: gray;
-  border-width: 2px;
+  border-width: 1px;
 }
 
 #search-button {
@@ -66,6 +67,10 @@
   margin-top: 10px;
 }
 
+#like {
+  margin-right: 100px;
+}
+
 #owner {
   margin-top: 10px;
   border-color: lightslategray;
@@ -73,8 +78,8 @@
   border-style: solid;
 }
 
-#comments {
-  background-color: crimson;
+#comments-resume {
+  margin-top: 10px;
 }
 
 #container-2 {
@@ -91,10 +96,11 @@ main {
 aside {
   float: right;
   width: 30%;
+  margin-top: 10px;
 }
 
 #recomended-videos {
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 :root {
@@ -231,4 +237,233 @@ button {
   color: darkgrey;
   background-color: lightgray;
   border: 0;
+}
+
+#comments-bar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#comments-order {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 10px;
+}
+
+h2.ytd-watch-metadata {
+  word-break: break-word;
+  font-family: "YouTube Sans", "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 500;
+  max-height: 5.6rem;
+  -webkit-line-clamp: 2;
+  display: box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+  margin: 0;
+}
+
+h3.ytd-watch-metadata {
+  word-break: break-word;
+  font-family: "YouTube Sans", "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 600;
+  max-height: 5.6rem;
+  -webkit-line-clamp: 2;
+  display: box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+  margin: 0;
+}
+
+#order-icon {
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+#comment_adding {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 10px;
+}
+#user_image {
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+  margin-right: 10px;
+}
+
+#comment-field {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1;
+  border-width: 00.5px;
+  width: 100%;
+
+  word-break: break-word;
+  font-family: "YouTube Sans", "Roboto", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  font-weight: 300;
+  max-height: 5.6rem;
+  -webkit-line-clamp: 2;
+  display: box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+  margin: 0;
+}
+#comment-input {
+  flex: 1;
+}
+
+#previous_comments {
+  margin-top: 10px;
+}
+
+#previous-comment {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+#comment-upper {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#comment-user {
+  word-break: break-word;
+  font-family: "YouTube Sans", "Roboto", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: 800;
+  max-height: 5.6rem;
+  -webkit-line-clamp: 2;
+  display: box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+#comment-time {
+  word-break: break-word;
+  font-family: "YouTube Sans", "Roboto", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: 500;
+  color: darkslategrey;
+  max-height: 5.6rem;
+  -webkit-line-clamp: 2;
+  display: box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+#comment-middle {
+  word-break: break-word;
+  font-family: "YouTube Sans", "Roboto", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  font-weight: 500;
+  max-height: 5.6rem;
+  -webkit-line-clamp: 2;
+  display: box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+}
+
+#comment-lower {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#comment-div {
+  margin-right: 10px;
+}
+
+#aside-recommended {
+  display: flex;
+  justify-content: space-between;
+}
+
+#img {
+  margin-right: 5px;
+}
+
+#aside-recommended-right {
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+h4 {
+  word-break: break-word;
+  font-family: "YouTube Sans", "Roboto", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  font-weight: 800;
+  max-height: 5.6rem;
+  -webkit-line-clamp: 2;
+  display: box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+  margin: 0;
+}
+
+#source {
+  word-break: break-word;
+  font-family: "YouTube Sans", "Roboto", sans-serif;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+  font-weight: 500;
+  max-height: 5.6rem;
+  -webkit-line-clamp: 2;
+  display: box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+  margin: 0;
+  color: darkslategrey;
+}
+
+#new {
+  background-color: lightgray;
+  margin-right: 10px;
+  padding: 1px;
 }
